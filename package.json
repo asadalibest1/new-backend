@@ -1,0 +1,46 @@
+{
+  "name": "artizyou-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-specifier-resolution=node server.js",
+    "serverStart": "NODE_OPTIONS='--experimental-specifier-resolution=node' node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HashPotato-io/Artizyou-Backend.git"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HashPotato-io/Artizyou-Backend/issues"
+  },
+  "homepage": "https://github.com/HashPotato-io/Artizyou-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.35.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "ethereumjs-util": "^7.1.5",
+    "ethers": "^6.0.5",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "moment-range": "^4.0.2",
+    "mongoose": "^6.9.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "pdf-creator-node": "^2.3.5",
+    "pdfkit": "^0.13.0",
+    "puppeteer": "^19.8.2",
+    "stripe": "^11.13.0",
+    "yarn": "^1.22.19"
+  }
+}
